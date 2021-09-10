@@ -1,5 +1,5 @@
 /*
-遍历100以内的所有偶数并打印
+遍历100以内的所有偶数并打印,
  */
 public class Traverse {
     public static void main(String[] args) {
