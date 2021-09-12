@@ -1,4 +1,5 @@
 package For循环;
+/*求两个正整数m和n的最大公约数和最小公倍数*/
 import java.util.Scanner;
 public class Practice3 {
     public static void main(String[] args){
