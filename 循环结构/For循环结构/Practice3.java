@@ -18,7 +18,7 @@ public class Practice3 {
 
         //计算最大公约数
         int min = (m < n)? m : n;
-        for(int i = min; i >= 1; i--){
+        for(int i = min; i >= 1; i--){ //这里值得一提的是可以直接在for循环内定义一个变量保证其仅在该域内有效，避免了再去域外面声明变量的情况。
             if((m % i == 0) && (n % i == 0)){
                 System.out.println("最大公约数为:" + i);
                 break;
